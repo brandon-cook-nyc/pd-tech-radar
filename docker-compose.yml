@@ -1,0 +1,7 @@
+services:
+  tech-radar-service:
+    image: artifacts.intranet.mckinsey.com/dockerhub/wwwthoughtworks/build-your-own-radar
+    ports:
+      - 8080:80
+    volumes:
+      - ./files/:/opt/build-your-own-radar/files
